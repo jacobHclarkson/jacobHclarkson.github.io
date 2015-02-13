@@ -1,8 +1,24 @@
 body {
 	background-color: #fdf6e3;
+	margin: 0px;
 }
 
 h1 {
 	color: #b58900;
-	font-size: 112px;
+	font-size: 56px;
+	font-family: Menlo;
+	text-align: center;
+}
+
+header {
+	background-color: #93a1a1;
+    	height: 30px;
+}
+
+footer {
+	background-color: #eee8d5;
+    	height: 30px;
+    	position:absolute;
+    	bottom:0;
+    	width:100%;
 }
