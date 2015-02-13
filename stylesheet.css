@@ -31,11 +31,12 @@ footer {
     text-decoration: none;
     color: #fdf6e3;
     
-    display: block;
+    display: inine-block;
     padding-left: 10px;
     height: 30px;
     width: 60px;
     background-color: #b58900;
+    float: left;
 }
 
 #linkedin:hover {
