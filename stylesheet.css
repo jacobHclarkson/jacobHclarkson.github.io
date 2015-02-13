@@ -41,3 +41,19 @@ footer {
 #linkedin:hover {
     font-weight: bold;    
 }
+
+#button {
+    text-align: left;
+    text-decoration: none;
+    color: #586e75;
+    
+    display: inline-block;
+    padding-left: 10px;
+    height: 30px;
+    width: 60px;
+    float: left;
+}
+
+#button:hover {
+    color: #fdf6e3;
+}
