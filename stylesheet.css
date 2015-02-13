@@ -11,8 +11,11 @@ h1 {
 }
 
 header {
-	background-color: #93a1a1;
-    	height: 30px;
+    background-color: #93a1a1;
+    height: 30px;
+    line-height: 230%;
+    font-size: 80%;
+    font-family: Arial;
 }
 
 footer {
@@ -21,4 +24,20 @@ footer {
     	position:absolute;
     	bottom:0;
     	width:100%;
+}
+
+#linkedin {
+    text-align: left;
+    text-decoration: none;
+    color: #fdf6e3;
+    
+    display: block;
+    padding-left: 10px;
+    height: 30px;
+    width: 60px;
+    background-color: #b58900;
+}
+
+#linkedin:hover {
+    font-weight: bold;    
 }
