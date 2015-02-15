@@ -1,7 +1,8 @@
 body {
 	background-color: #fdf6e3;
-	margin: 0px;
+	margin: 0px;	
 }
+
 
 ::selection {
 	background: #ff5e99;
@@ -17,6 +18,13 @@ h1 {
 	font-size: 56px;
 	font-family: Menlo;
 	text-align: center;
+	margin-top: -5px;
+}
+
+h1 span {
+    margin-top: -5px;        /* Size of fixed header */
+  padding-bottom: 5px;
+  display: block;
 }
 
 header {
@@ -25,6 +33,10 @@ header {
     line-height: 230%;
     font-size: 80%;
     font-family: Arial;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 footer {
@@ -91,6 +103,12 @@ h2 {
     padding-left: 100px;
 }
 
+h2 span {
+    margin-top: -30px;        /* Size of fixed header */
+  padding-bottom: 30px; 
+  display: block; 
+}
+
 h3 {
     font-family: monospace;
     font-weight: normal;
@@ -121,9 +139,12 @@ a {
     color: #b58900; 
 }
 
-.about {
-}
-
-
-iframe {
+ul {
+    font-family: Arial;
+    color: #93a1a1;
+    font-weight: 100;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    line-height: 150%;
 }
